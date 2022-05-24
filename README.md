@@ -1,7 +1,51 @@
 # Capstone Project Module 03 - Saudi Arabia Used Cars - Regression
 
-[Sumber data Saudi Arabia Used Cars](https://drive.google.com/file/d/1Tr4YT5dmgwTrXLvIqZ4diBf5z8K6JjrR/view) 
+Capstone Project module 3 memiliki fokus pada pembuatan sebuah rangkaian proses analisis data serta membangun suatu model machine learning yang sesuai dengan data dan kebutuhan. Proses pembuatan project ini dilakukan secara end-to-end, meliputi dari perumusan masalah, tujuan yang ingin dicapai, limitasi model yang dibuat, hingga kesimpulan dan rekomendasi yang dapat diberikan terkait dengan project yang sudah dibuat. Tujuan dari pengerjaan Capstone Project module 3 adalah agar penulis dapat memiliki pengetahuan fundamental terkait pemodelan machine learning dan kegunaannya. Guideline capstone project untuk module 2 ini diantaranya:
+- Documentation 
+- Business Problem & Data Understanding
+- Data Cleaning, Feature selection, & Feature Engineering
+- Analytics (Algorithm, Evaluation Metrics)
+  - Analisa data
+  - Pemodelan
+  - Evaluation metrics
+- Conclusion and Recommendation/Improvement
 
+## Programming Language
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" width="20" height="20" />
+
+**Built With**
+Berikut merupakan detail dari bahasa pemrograman dan _libraries_ yang digunakan dalam membangun project capstone module 3: <br>
+- [**pandas**](https://pandas.pydata.org/)<br>
+- [**NumPy**](https://numpy.org/)<br>
+- [**seaborn**](https://seaborn.pydata.org/)<br>
+- [**matplotlib**](https://matplotlib.org/)<br>
+- [**scikit-learn**](https://scikit-learn.org/stable/)
+- 
+## Dataset Information
+Dataset yang digunakan dapat di download pada link website berikut [Sumber data Saudi Arabia Used Cars](https://drive.google.com/file/d/1Tr4YT5dmgwTrXLvIqZ4diBf5z8K6JjrR/view) 
+
+**Data Understanding**
+- Singkatnya dataset yang digunakan adalah data listing mobil bekas yang dijual pada lokasi asal Saudi Arabia.
+- Setiap baris data merepresentasikan informasi terkait kendaraan yang dijual.
+
+**Attributes Information**
+
+| **Attribute** | **Data Type** | **Description** |
+| --- | --- | --- |
+| Type | Object | Type of used car |
+| Region | Object | Region of used car |
+| Make | Object | The company name |
+| Gear_Type | Object | Gear type size of used car |
+| Origin| Object | Origin of used car |
+| Options| Object | Options of used car |
+| Year | Integer | Manufacturing year |
+| Engine_Size | Float | The engine size of used car |
+| Mileage | Integer | Mileage |
+| Negotiable | Object | Negotiable in dollars |
+| Price | Integer | Amount of used car |
+
+
+##################################################
 ### **Contents**
 
 1. Business Problem Understanding
@@ -41,25 +85,7 @@ Evaluasi metrik yang akan digunakan adalah RMSE, MAE, dan MAPE, di mana RMSE ada
 
 Selain itu, kita juga bisa menggunakan nilai R-squared atau adj. R-squared jika model yang nanti terpilih sebagai final model adalah model linear. Nilai R-squared digunakan untuk mengetahui seberapa baik model dapat merepresentasikan varians keseluruhan data. Semakin mendekati 1, maka semakin fit pula modelnya terhadap data observasi. Namun, metrik ini tidak valid untuk model non-linear.
 
-### **Data Understanding**
-- Dataset merupakan data listing mobil bekas yang dijual pada lokasi asal Saudi Arabia.
-- Setiap baris data merepresentasikan informasi terkait kendaraan yang dijual.
 
-**Attributes Information**
-
-| **Attribute** | **Data Type** | **Description** |
-| --- | --- | --- |
-| Type | Object | Type of used car |
-| Region | Object | Region of used car |
-| Make | Object | The company name |
-| Gear_Type | Object | Gear type size of used car |
-| Origin| Object | Origin of used car |
-| Options| Object | Options of used car |
-| Year | Integer | Manufacturing year |
-| Engine_Size | Float | The engine size of used car |
-| Mileage | Integer | Mileage |
-| Negotiable | Object | Negotiable in dollars |
-| Price | Integer | Amount of used car |
 
 <br>
 
