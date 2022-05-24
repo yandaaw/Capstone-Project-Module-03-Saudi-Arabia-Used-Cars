@@ -98,3 +98,8 @@ Hal-hal yang dapat dilakukan untuk mengembangkan model agar lebih baik lagi, sep
 1. Mengecek prediksi mana saja yang memiliki nilai error yang tinggi. Kita dapat mengelompokkan error tersebut ke dalam grup overestimation dan underestimation, lalu memilih 5% error paling ekstrim saja untuk tiap grup. Nantinya pengelompokkan akan menjadi 3 grup, yaitu overestimation (5%), underestimation (5%), dan grup mayoritas yang error-nya mendekati nilai mean (90%). Setelahnya kita bisa mengecek hubungan antara error tersebut dengan tiap variabel independen. Pada akhirnya kita dapat mengetahui sebenarnya variabel mana saja dan aspek apa yang menyebabkan model menghasilkan error yang tinggi, sehingga kita bisa melakukan training ulang dengan penerapan feature engineering lainnya.
 1. Jika memungkinkan, penambahan fitur yang lebih korelatif dengan target ('price'). 
 1. Jika ada penambahan banyak data, dapat dicoba dengan menggunakan model yang lebih kompleks, seperti recursive neural networks (RNN). Namun, kalau jumlah data dan fiturnya masih seperti dataset ini, kemungkinan besar tidak akan mengubah hasilnya secara signifikan.
+
+Video Explanation
+**Link Video:** 
+- [Capstone Project Module 03 - Saudi Arabia Used Cars - Regression (Google Drive)](https://drive.google.com/file/d/1pl2wofg7HGPrI7YVDdZQ7cfmxVRol2Wo/view?usp=sharing)
+- [Capstone Project Module 03 - Saudi Arabia Used Cars - Regression (Youtube)](https://youtu.be/MXeJxsJgjsU)
