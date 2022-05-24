@@ -99,7 +99,7 @@ Hal-hal yang dapat dilakukan untuk mengembangkan model agar lebih baik lagi, sep
 1. Jika memungkinkan, penambahan fitur yang lebih korelatif dengan target ('price'). 
 1. Jika ada penambahan banyak data, dapat dicoba dengan menggunakan model yang lebih kompleks, seperti recursive neural networks (RNN). Namun, kalau jumlah data dan fiturnya masih seperti dataset ini, kemungkinan besar tidak akan mengubah hasilnya secara signifikan.
 
-Video Explanation
+## **Video Explanation**
 **Link Video:** 
 - [Capstone Project Module 03 - Saudi Arabia Used Cars - Regression (Google Drive)](https://drive.google.com/file/d/1pl2wofg7HGPrI7YVDdZQ7cfmxVRol2Wo/view?usp=sharing)
 - [Capstone Project Module 03 - Saudi Arabia Used Cars - Regression (Youtube)](https://youtu.be/MXeJxsJgjsU)
